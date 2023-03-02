@@ -1,0 +1,10 @@
+esta es la historia
+
+de un personaje de ficción que asesinó a 3 ñeros 
+
+code // abre Visual studio code 
+history // Muestra el historial de comandos utilizados
+git init // Indico que es la carpeta master y es donde se van a manejar todos los archivos del proyecto
+git status // Muestra el estado del proyecto y muestra como estàn los archivos
+git add <file> // Adiciona el archivo a seguimiento y control por parte de Git
+"git rm --cached <file> // saca el archivo de seguimiento de Git
