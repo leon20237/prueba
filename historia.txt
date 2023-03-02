@@ -7,4 +7,11 @@ history // Muestra el historial de comandos utilizados
 git init // Indico que es la carpeta master y es donde se van a manejar todos los archivos del proyecto
 git status // Muestra el estado del proyecto y muestra como estàn los archivos
 git add <file> // Adiciona el archivo a seguimiento y control por parte de Git
-"git rm --cached <file> // saca el archivo de seguimiento de Git
+git rm --cached <file> // saca el archivo de seguimiento de Git, es como quitarle el add
+git commit -m "Este es el primer commit del archivo historia.txt" // se crean los commits
+git config // Muestra las configuraciones que tiene GIT
+git config --list // Muestra la configuraciòn por defecto y lo que le hace falta
+Se requiere configurar el perfil del usuario
+git config --global user.name "Faiber Leòn" // Le estoy iondicando mi nombre de usuario a GIT
+git config --global user.email "leon20237@gmail.com" // Le estoy indicando mi correo de usuario a GIT
+git 
