@@ -22,6 +22,6 @@ Despùes de haber enviado el mensaje, para salir de esta pantalla se requiere in
 git diff <Nùmero hexa de guardado> <Nùmero hexa de guardado> // Muestra los cambios realiza entre los 2 commits
 git reset <Número de hexa guardado> --hard // devuelve a una versión anterior el o los archivos
 git log --stat // muestra los cambios especificos y en que archivos a partir del commit
-git checout <Nùmero hexa de guardado> <file> // Con esto se puede ver una versión anterior **Pero si le da commit queda en esa versión
-git checout master <file> // Con esto se llama la versión master y queda en esta versión si se aplica commit
+git checkout <Nùmero hexa de guardado> <file> // Con esto se puede ver una versión anterior **Pero si le da commit queda en esa versión
+git checkout master <file> // Con esto se llama la versión master y queda en esta versión si se aplica commit
 
