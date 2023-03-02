@@ -20,3 +20,5 @@ git show <file> // Muestra los cambios internos realizados al archivo
 Si se realiza un commit sin un mensaje, GIT lo lleva a una pantalla en la cual lo obliga a ingresar el mensaje.
 Despùes de haber enviado el mensaje, para salir de esta pantalla se requiere introducir la siguiente convinaciòn de teclas: esc+shift+zz
 git diff <Nùmero hexa de guardado> <Nùmero hexa de guardado> // Muestra los cambios realiza entre los 2 commits
+git reset <Número de hexa guardado> --hard // devuelve a una versión anterior el o los archivos
+git log --stat // muestra los cambios especificos y en que archivos a partir del commit
