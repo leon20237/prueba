@@ -17,3 +17,5 @@ git config --global user.name "Faiber Leòn" // Le estoy iondicando mi nombre de
 git config --global user.email "leon20237@gmail.com" // Le estoy indicando mi correo de usuario a GIT
 git log <file> o no <file> // Muestra el historial del archivo
 git show <file> // Muestra los cambios internos realizados al archivo
+Si se realiza un commit sin un mensaje, GIT lo lleva a una pantalla en la cual lo obliga a ingresar el mensaje.
+Despùes de haber enviado el mensaje, para salir de esta pantalla se requiere introducir la siguiente secuencia de teclas: esc shift zz
