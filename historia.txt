@@ -16,3 +16,4 @@ Se requiere configurar el perfil del usuario
 git config --global user.name "Faiber Leòn" // Le estoy iondicando mi nombre de usuario a GIT
 git config --global user.email "leon20237@gmail.com" // Le estoy indicando mi correo de usuario a GIT
 git log <file> o no <file> // Muestra el historial del archivo
+git show <file> // Muestra los cambios internos realizados al archivo
