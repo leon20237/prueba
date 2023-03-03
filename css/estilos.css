@@ -35,3 +35,10 @@ body{
 	margin-left: 10px;
 	font-family: 'Times New Roman', Times, serif;
 }
+
+#container #post #parrafo{
+	color: black;
+	padding: 3px;
+	font-size: 13px;
+	text-align: justify;
+} 
