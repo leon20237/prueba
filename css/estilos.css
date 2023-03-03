@@ -36,9 +36,18 @@ body{
 	font-family: 'Times New Roman', Times, serif;
 }
 
-#container #post #parrafo{
-	color: black;
-	padding: 3px;
-	font-size: 13px;
-	text-align: justify;
+#container #post {
+	border: 1px solid red;
 } 
+
+#container #post #parrafo p{
+	color: red;
+	font-size: 13px;
+	padding: 5px;
+} 
+
+#contenido {
+	background: black;
+	color: #fff;
+	height: auto;
+}
