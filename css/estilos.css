@@ -35,3 +35,8 @@ body{
 	margin-left: 10px;
 	font-family: 'Times New Roman', Times, serif;
 }
+
+#contenido1 {
+	background-color: crimson;
+	color: #fff;
+}
