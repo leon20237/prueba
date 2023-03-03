@@ -42,7 +42,11 @@ body{
 
 #container #post #parrafo p{
 	color: red;
+<<<<<<< HEAD
 	font-size: 15px;
+=======
+	font-size: 14px;
+>>>>>>> cabecera
 	padding: 5px;
 } 
 
