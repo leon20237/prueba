@@ -36,11 +36,6 @@ body{
 	font-family: 'Times New Roman', Times, serif;
 }
 
-<<<<<<< HEAD
-#contenido1 {
-	background-color: crimson;
-	color: #fff;
-=======
 #container #post {
 	border: 1px solid red;
 } 
@@ -55,5 +50,9 @@ body{
 	background: black;
 	color: #fff;
 	height: auto;
->>>>>>> cabecera
+}
+
+#contenido1 {
+	background-color: crimson;
+	color: #fff;
 }
