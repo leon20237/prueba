@@ -36,7 +36,24 @@ body{
 	font-family: 'Times New Roman', Times, serif;
 }
 
+<<<<<<< HEAD
 #contenido1 {
 	background-color: crimson;
 	color: #fff;
+=======
+#container #post {
+	border: 1px solid red;
+} 
+
+#container #post #parrafo p{
+	color: red;
+	font-size: 13px;
+	padding: 5px;
+} 
+
+#contenido {
+	background: black;
+	color: #fff;
+	height: auto;
+>>>>>>> cabecera
 }
