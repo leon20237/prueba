@@ -1,7 +1,6 @@
-esta es la historia
+Comandos de Git y GIT HUB
 
-de un personaje de ficción que asesinó a 3 ñeros 
-
+ 
 code // abre Visual studio code 
 history // Muestra el historial de comandos utilizados
 git init // Indico que es la carpeta master y es donde se van a manejar todos los archivos del proyecto
@@ -42,4 +41,30 @@ git commit -am // otra manera de agregar los cambios haciendo add y commit en si
 
 git branch <nombre de branch> // crea un branch nuevo
 
-ssh-keygen -t rsa -b 4096 -C "leon20237@gmail" // Este comando es para configurar las llaves publicas y privadas en GIT
+**************Crear llaves SSH (publicas y privadas) esto se hace en GIT
+
+ssh-keygen -t rsa -b 4096 -C "corre@correo.com" // Este comando es para configurar las llaves publicas y privadas en GIT y queda la key privada y publica dentro de una carpeta llamada .ssh 
+
+~ // esto es una variable global que almacena el path del directorio en donde se encuentra instalado y corriendo GIT
+
+Enter passphrase (empty for no passphrase): //Ingresar una palabra como password
+Enter same passphrase again: // confirmar la palabra
+ // despues muestra un fingerprint y una imagen con caracteres aleatorios
+		SHA256:OvMnY5ESKttA72gho6SncpOuDpRkeLK/pyjd9XIeihw leon20237@gmail
+		The key's randomart image is:
+		+---[RSA 4096]----+
+		|                 |
+		|.                |
+		|oo.              |
+		|o+o   .          |
+		|.+ . . .S.       |
+		|+o+ o o.o        |
+		|=+.@E.+o..       |
+		|*.Xo=o.=*..      |
+		|BO++o .=o+       |
+		+----[SHA256]-----+
+
+eval $(ssh-agent -s) // con este comando se revisa si se está ejecutando el gestor de llaves SSH
+
+ssh-add ~/.ssh/id_rsa // con este comando se le indica que cargue el la llave privada 
+
