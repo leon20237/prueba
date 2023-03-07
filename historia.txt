@@ -37,3 +37,9 @@ git reset --soft // Borramos todo el historial y los registros de Git pero guard
 git reset --hard // Borra todo. Todo todito, absolutamente todo. Toda la información de los commits y del área de staging se borra del historial.
 
 git reset HEAD // Este es el comando para sacar archivos del área de staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add, por supuesto.
+
+git commit -am // otra manera de agregar los cambios haciendo add y commit en simultaneo
+
+git branch <nombre de branch> // crea un branch nuevo
+
+ssh-keygen -t rsa -b 4096 -C "leon20237@gmail" // Este comando es para configurar las llaves publicas y privadas en GIT
